@@ -20,6 +20,45 @@
     />
   </head>
   <body>
+    <div class="modal" id="data-modal">
+      <!-- <div class="modal-close-overlay" id="data-modal"></div> -->
+
+      <div class="modal-content">
+        <button class="modal-close-btn" id="data-modal-close">
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+        
+        <div class="newsletter">
+          
+          <form action="#">
+            <div class="newsletter-header">
+              <div class="newsletter-img">
+                <img
+                  src="img/atalassian-img.png.jpg"
+                  alt="subscribe"
+                  width="400px"
+                  height="400px"
+                />
+              </div>
+              <h3 class="newsletter-title">Subscribe Newsletter</h3>
+              <p class="newsletter-desc">
+                Subscribe to <b>My newsletter</b>to get latest trends in Tech
+                and update
+              </p>
+            </div>
+            <input
+              type="email"
+              name="email"
+              class="email-field"
+              placeholder="Email Address"
+              required
+            />
+            <button type="submit" class="btn-newsletter">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
     <!---hero section part-->
     <div class="hero">
       <nav>
@@ -127,5 +166,6 @@
         <button>submit</button>
       </form>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>
